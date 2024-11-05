@@ -1,0 +1,37 @@
+:host {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  align-content: flex-start;
+}
+.nav-drawer {
+  min-width: min-content;
+  min-height: 0;
+  max-width: 320px;
+  flex-shrink: 0;
+}
+.icon {
+  --size: 24px;
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+}
+.avatar {
+  --ig-size: var(--ig-size-small);
+}
+.row-layout {
+  display: flex;
+}
+.group {
+  background-color: hsla(var(--ig-primary-500));
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  padding: 20px;
+}
+.list {
+  height: max-content;
+  flex-shrink: 0;
+}
